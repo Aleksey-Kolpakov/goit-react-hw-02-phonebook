@@ -1,0 +1,51 @@
+p{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 50%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+ul{
+    list-style: none;
+}
+.profile{
+    margin-left: auto;
+    margin-right: auto;
+border: 2px;
+border-radius: 4px;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+padding-top: 30px;
+text-align: center;
+width: 300px;
+color: gray;
+font-weight: 500;
+font-size: 20px;
+}
+.name{
+    font-size: 30px;
+    font-weight: 700;
+    color:black;
+}
+
+.stats{
+    padding: 0;
+    display: flex;
+}
+
+.label{
+    display: block;
+}
+.stats li{
+    width: 33%;
+    border: 2px solid gray;
+    background-color: gainsboro;
+}
+.quantity{
+    color: black;
+    font-weight: 600;
+}
